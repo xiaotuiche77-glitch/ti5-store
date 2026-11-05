@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Ti5 Robot CRA-RI PRO Series — Integrated Joint Actuators | Authorized Distribution Partner</title>
+<meta name="description" content="Ti5 Robot (Taihu Robotics) CRA-RI PRO series integrated joint actuator modules — full range, specifications and pricing. Authorized distribution partner serving Europe and North America.">
+<style>
+:root{--ink:#10243e;--ink2:#0d2b4d;--accent:#2f7bff;--sub:#5b6b84;--line:#e3e8ef;--bg:#ffffff;--soft:#f5f8fc;--tile:#e9f1fc;--radius:16px}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink)}
+/* header */
+header.site{position:sticky;top:0;z-index:50;background:#2b3440;color:#fff;box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.header-in{max-width:1180px;margin:0 auto;padding:12px 18px;display:flex;align-items:center;gap:18px}
+.logo{display:flex;align-items:center;gap:9px;font-size:19px;font-weight:800;letter-spacing:.5px;white-space:nowrap}
+.logo svg{flex:0 0 auto}
+.logo small{display:block;font-size:9px;font-weight:600;color:#a9b8cc;letter-spacing:1.6px;text-transform:uppercase}
+nav.main{display:none;gap:20px;margin-left:10px}
+@media(min-width:860px){nav.main{display:flex}}
+nav.main a{color:#dbe4f0;text-decoration:none;font-size:14px}
+nav.main a:hover{color:#fff}
+.spacer{flex:1}
+.icon-btn{position:relative;background:none;border:none;color:#fff;cursor:pointer;padding:6px;display:flex;align-items:center}
+.inq-count{position:absolute;top:-2px;right:-4px;background:#ffcf3f;color:#111;font-size:10.5px;font-weight:800;min-width:18px;height:18px;line-height:18px;border-radius:999px;text-align:center;padding:0 4px;display:none}
+.searchbar{max-height:0;overflow:hidden;transition:max-height.25s;background:#232a33}
+.searchbar.open{max-height:70px}
+.searchbar-in{max-width:1180px;margin:0 auto;padding:12px 18px}
+.searchbar input{width:100%;border:none;border-radius:999px;padding:11px 18px;font-size:14.5px;font-family:inherit;outline:none}
+/* hero */
+.hero{background:linear-gradient(115deg,#0b1526,#14304f 62%,#0e4a77);color:#fff;position:relative;overflow:hidden}
+.slides{max-width:1180px;margin:0 auto;position:relative;min-height:400px}
+.slide{position:absolute;inset:0;display:flex;align-items:center;gap:30px;padding:38px 18px;opacity:0;transition:opacity.7s;pointer-events:none}
+.slide.active{opacity:1;pointer-events:auto}
+.slide.txt{flex:1;min-width:0}
+.slide.kicker{font-size:12px;letter-spacing:2.6px;text-transform:uppercase;color:#57c8ff;margin-bottom:11px}
+.slide h1{font-size:29px;line-height:1.18;font-weight:800}
+@media(min-width:860px){.slide h1{font-size:42px}}
+.slide p{color:#bcccdf;font-size:15px;margin:13px 0 22px;line-height:1.65;max-width:520px}
+.cta-row{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;border-radius:999px;padding:11px 21px;font-size:14px;font-weight:600;cursor:pointer;border:none;text-decoration:none}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-outline{background:transparent;color:#fff;border:1.5px solid #8fb6dd}
+.btn-outline-dark{background:#fff;color:var(--ink2);border:1.5px solid var(--ink2)}
+.slide.pic{flex:0 0 40%;display:none}
+@media(min-width:860px){.slide.pic{display:block}}
+.slide.pic.frame{background:#fff;border-radius:20px;padding:20px;box-shadow:0 22px 44px rgba(0,0,0,.35)}
+.slide.pic img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block}
+.hero-nav{max-width:1180px;margin:0 auto;padding:0 18px 20px;display:flex;align-items:center;gap:14px}
+.arrow{width:38px;height:38px;border-radius:50%;border:1.5px solid #47678c;background:transparent;color:#fff;font-size:19px;cursor:pointer;line-height:1}
+.dots{display:flex;gap:7px;margin-left:6px}
+.dots button{width:26px;height:4px;border-radius:2px;border:none;background:#33506f;cursor:pointer;padding:0}
+.dots button.on{background:#57c8ff}
+/* sections */
+section.block{max-width:1180px;margin:0 auto;padding:42px 18px 8px}
+section.block h2{font-size:26px;font-weight:800;color:var(--ink2);margin-bottom:8px}
+section.block.lead{color:var(--sub);font-size:14.5px;line-height:1.7;max-width:780px}
+.intro{background:linear-gradient(rgba(47,123,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(47,123,255,.045) 1px,transparent 1px);background-size:34px 34px;border-bottom:1px solid var(--line)}
+.intro-in{max-width:1180px;margin:0 auto;padding:36px 18px 30px}
+.intro-in h2{font-size:27px;font-weight:800;color:var(--ink2);line-height:1.3;max-width:640px}
+.intro-in p{color:var(--sub);font-size:14.5px;line-height:1.7;max-width:720px;margin:10px 0 18px}
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+@media(min-width:860px){.cats{grid-template-columns:repeat(4,1fr);gap:16px}}
+.cat{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px;cursor:pointer;text-align:left;font-family:inherit;transition:border-color.15s, box-shadow.15s;width:100%}
+.cat:hover{box-shadow:0 8px 22px rgba(13,43,77,.08)}
+.cat.on{border-color:var(--accent);box-shadow:0 0 0 1.5px var(--accent) inset}
+.cat.tile{width:64px;height:64px;border-radius:14px;background:var(--tile);display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.cat.nm{font-size:16.5px;font-weight:700;color:var(--ink2)}
+.cat.ct{font-size:12.5px;color:var(--sub);margin-top:3px}
+/* product grid */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
+@media(min-width:720px){.grid{grid-template-columns:repeat(3,1fr);gap:20px}}
+@media(min-width:1040px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{background:#fff;border:1px solid transparent;border-radius:var(--radius);padding:10px 10px 16px;display:flex;flex-direction:column;text-align:center;transition:box-shadow.15s}
+.card:hover{box-shadow:0 12px 28px rgba(13,43,77,.10)}
+.card.ph{background:#fff;border-radius:12px;padding:14px;cursor:pointer}
+.card.ph img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block}
+.card.model{font-size:16px;font-weight:700;line-height:1.4;color:var(--ink);padding:0 4px;cursor:pointer}
+.card.from{font-size:16.5px;color:var(--ink);margin:7px 0 13px}
+.card.sel{margin-top:auto;background:#fff;color:var(--ink);border:1.5px solid var(--ink);border-radius:10px;padding:11px;font-size:14.5px;font-weight:600;cursor:pointer;width:100%}
+.card.sel:hover{background:var(--ink);color:#fff}
+.no-res{grid-column:1/-1;text-align:center;color:var(--sub);padding:36px 0;font-size:14.5px}
+/* faq */
+.faq{margin-top:16px;display:grid;gap:10px}
+@media(min-width:860px){.faq{grid-template-columns:repeat(3,1fr)}}
+.faq details{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.faq summary{font-weight:700;font-size:14.5px;cursor:pointer;line-height:1.45}
+.faq p{font-size:13.5px;color:var(--sub);line-height:1.65;margin-top:8px}
+/* about */
+.about-box{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-top:16px}
+.about-box p{font-size:14.5px;color:#3d4a61;line-height:1.75;margin-bottom:10px}
+/* detail overlay */
+.overlay{position:fixed;inset:0;background:#fff;z-index:70;overflow-y:auto;display:none}
+.overlay.show{display:block}
+.detail{max-width:1080px;margin:0 auto;padding:16px 18px 60px}
+.back-btn{background:none;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;cursor:pointer;margin:6px 0 16px}
+.d-top{display:grid;gap:22px}
+@media(min-width:860px){.d-top{grid-template-columns:1fr 1fr}}
+.gal.main-img{width:100%;aspect-ratio:1/1;object-fit:contain;border-radius:var(--radius);background:#fff;border:1px solid var(--line);padding:16px}
+.gal.thumbs{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap}
+.gal.thumbs img{width:58px;height:58px;object-fit:contain;padding:4px;border-radius:8px;border:2px solid var(--line);cursor:pointer;background:#fff}
+.gal.thumbs img.on{border-color:var(--accent)}
+.gal video{width:100%;border-radius:var(--radius);margin-top:10px;background:#000}
+.d-info h1{font-size:23px;line-height:1.3}
+.d-info.brand-line{color:var(--sub);font-size:13px;margin:5px 0 12px}
+.d-price{font-size:26px;font-weight:800;margin:6px 0 2px}
+.d-price small{font-size:12px;color:var(--sub);font-weight:500}
+.sku-line{font-size:12px;color:var(--sub);margin-bottom:12px}
+.opt-group{margin:13px 0}
+.opt-group.lbl{font-size:13px;font-weight:700;margin-bottom:7px}
+.opt-group.lbl span{color:var(--sub);font-weight:500}
+.pills{display:flex;flex-wrap:wrap;gap:7px}
+.pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font-size:12.5px;cursor:pointer}
+.pill.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.qty-row{display:flex;align-items:center;gap:12px;margin:16px 0}
+.qty{display:flex;align-items:center;gap:10px}
+.qty button{width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:#fff;font-size:16px;cursor:pointer}
+.d-actions{display:flex;gap:10px;flex-wrap:wrap}
+.d-actions.btn-primary{flex:1;text-align:center}
+.spec-wrap{margin-top:30px}
+.spec-wrap h3{font-size:18px;margin-bottom:10px}
+.spec-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:#fff}
+.spec-scroll table{border-collapse:collapse;width:100%;font-size:12.5px;min-width:640px}
+.spec-scroll th,.spec-scroll td{border:1px solid var(--line);padding:8px 9px;text-align:center}
+.spec-scroll th{background:#eef3fa;font-weight:700}
+.spec-scroll td:first-child,.spec-scroll th:first-child{text-align:left;font-weight:600}
+.note-box{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;font-size:13px;color:var(--sub);line-height:1.7;margin-top:16px}
+/* drawer */
+.mask{position:fixed;inset:0;background:rgba(8,12,24,.5);z-index:60;opacity:0;pointer-events:none;transition:opacity.2s}
+.mask.show{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(460px,94vw);background:#fff;z-index:65;transform:translateX(105%);transition:transform.25s;display:flex;flex-direction:column}
+.drawer.show{transform:translateX(0)}
+.drawer.dhead{padding:16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.drawer.dbody{flex:1;overflow-y:auto;padding:6px 16px}
+.iitem{padding:12px 0;border-bottom:1px solid var(--line)}
+.iitem.t{font-weight:700;font-size:14px}
+.iitem.v{font-size:12px;color:var(--sub);margin:3px 0;line-height:1.5}
+.iitem.r{display:flex;justify-content:space-between;align-items:center}
+.rm-btn{background:none;border:none;color:#c0392b;font-size:12px;cursor:pointer}
+.drawer.dfoot{border-top:1px solid var(--line);padding:14px 16px calc(14px + env(safe-area-inset-bottom))}
+.total-row{display:flex;justify-content:space-between;font-size:15px;margin-bottom:12px}
+.total-row b{font-size:18px}
+.field{margin-bottom:11px}
+.field label{display:block;font-size:12.5px;margin-bottom:4px;color:#44506a;font-weight:600}
+.field input,.field textarea{width:100%;border:1px solid #d4dbe6;border-radius:9px;padding:10px 11px;font-size:14px;font-family:inherit;background:#fff}
+.summary{background:var(--soft);border-radius:10px;padding:12px;font-size:12.5px;line-height:1.7;white-space:pre-wrap;word-break:break-word}
+.empty{color:var(--sub);text-align:center;padding:40px 0;font-size:14px}
+.ghost-btn{width:100%;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:12px;font-size:14px;cursor:pointer;margin-top:9px}
+.primary-btn{width:100%;background:var(--accent);color:#fff;border:none;border-radius:999px;padding:13px;font-size:15px;font-weight:700;cursor:pointer}
+.primary-btn:disabled{background:#b9c6da}
+/* fab + footer */
+.fab{position:fixed;right:18px;bottom:22px;z-index:55;width:54px;height:54px;border-radius:50%;background:#232a33;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px rgba(0,0,0,.28);text-decoration:none}
+footer.site{margin-top:46px;background:#2b3440;color:#aebbd2}
+.foot-in{max-width:1180px;margin:0 auto;padding:26px 18px calc(22px + env(safe-area-inset-bottom));font-size:13px;line-height:1.9}
+.foot-in b{color:#fff}
+.toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%) translateY(16px);background:rgba(10,16,30,.92);color:#fff;font-size:13px;padding:9px 17px;border-radius:999px;z-index:90;opacity:0;pointer-events:none;transition:all.25s}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<header class="site">
+<div class="header-in">
+<div class="logo">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 1.8 21 7v10l-9 5.2L3 17V7l9-5.2Z" stroke="#57c8ff" stroke-width="1.7"/><path d="M12 7.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Z" stroke="#57c8ff" stroke-width="1.7"/><circle cx="12" cy="12" r="1.6" fill="#57c8ff"/></svg>
+<div>Ti5 ROBOT<small>Authorized Distribution Partner</small></div>
+</div>
+<nav class="main">
+<a href="#categories">Categories</a>
+<a href="#products">Products</a>
+<a href="#guide">Selection Guide</a>
+<a href="#about">About</a>
+</nav>
+<div class="spacer"></div>
+<button class="icon-btn" id="searchBtn" aria-label="Search products">
+<svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+</button>
+<button class="icon-btn" id="openInq" aria-label="Inquiry list">
+<svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 8h14l-1.2 12.2a1 1 0 0 1-1.8H7.2a1 1 0 0 1-1-.8L5 8Z"/><path d="M8.5 10.5V6.5a3.5 3.5 0 0 1 7 0v4"/></svg>
+<span class="inq-count" id="inqCount">0</span>
+</button>
+</div>
+<div class="searchbar" id="searchbar">
+<div class="searchbar-in"><input id="searchInput" placeholder="Search models — e.g. CRA-RI70-90"></div>
+</div>
+</header>
+
+<div class="hero">
+<div class="slides" id="slides"></div>
+<div class="hero-nav">
+<button class="arrow" id="prevSlide" aria-label="Previous">‹</button>
+<button class="arrow" id="nextSlide" aria-label="Next">›</button>
+<div class="dots" id="dots"></div>
+</div>
+</div>
+
+<div class="intro">
+<div class="intro-in">
+<h2>Robotics Components for Motion, Manipulation &amp; Control</h2>
+<p>Explore the Ti5 Robot CRA-RI PRO range of integrated joint actuators. Compare gear ratios, encoder configurations and full specification tables model by model — then send us your project requirements for a confirmed quotation.</p>
+<a class="btn btn-outline-dark" href="#contact">Discuss your project</a>
+</div>
+</div>
+
+<section class="block" id="categories">
+<h2>Browse by product category</h2>
+<p class="lead">All CRA-RI PRO modules share the same integrated architecture — motor, harmonic reducer, encoder and driver in one unit. Choose by frame size:</p>
+<div class="cats" id="cats"></div>
+</section>
+
+<section class="block" id="products">
+<h2>Featured Products</h2>
+<p class="lead" id="gridLead">The complete Ti5 Robot CRA-RI PRO series, with USD pricing for every configuration.</p>
+<div class="grid" id="grid"></div>
+</section>
+
+<section class="block" id="guide">
+<h2>Before you choose a robotic actuator</h2>
+<div class="faq">
+<details open>
+<summary>What should I provide for actuator selection?</summary>
+<p>Your application, continuous and peak torque, speed, operating voltage, size and weight limits, control interface, and quantity. If you already have an exact model and version in mind, include it — we will verify it against your requirements.</p>
+</details>
+<details open>
+<summary>How do I check controller compatibility?</summary>
+<p>Compare the exact motor and controller documentation: protocol version, wiring, supply requirements and supported control modes. Matching interface names alone do not establish compatibility — send us your controller model and we will confirm.</p>
+</details>
+<details open>
+<summary>Where do I get technical documents and delivery terms?</summary>
+<p>Each product page lists the full specification table. Datasheets, manuals and CAD files are available on request — contact us with the exact model, the files you need, quantity and destination for documentation, availability and delivery details.</p>
+</details>
+</div>
+</section>
+
+<section class="block" id="about">
+<h2>About Us</h2>
+<div class="about-box">
+<p><b>Ti5 Robot （钛虎机器人）</b> develops integrated joint actuators that serve as the core motion modules of humanoid robots, robotic arms and precision automation equipment. The CRA-RI PRO series packs a frameless torque motor, harmonic reducer, encoder and servo driver into a single compact unit.</p>
+<p>We are an <b>authorized distribution partner of Ti5 Robot</b>, supplying the full CRA-RI PRO series to customers in <b>Europe and North America</b> — with model selection support, technical documentation and after-sales coordination handled directly with the factory.</p>
+<p>Tell us your torque, space and interface requirements and we will recommend the right model and configuration for your project.</p>
+</div>
+</section>
+
+<section class="block" id="contact">
+<h2>Discuss Your Project</h2>
+<p class="lead">Add models to the inquiry list and send it to us, or reach out directly — we reply with availability, lead time and a formal quotation.</p>
+<div class="about-box">
+<p>Email: <b id="contactEmail"></b><br>
+WhatsApp: <b id="contactWa"></b><br>
+Markets served: Europe &amp; North America</p>
+</div>
+</section>
+
+<footer class="site">
+<div class="foot-in">
+<b>Ti5 ROBOT — Authorized Distribution Partner</b><br>
+CRA-RI PRO series integrated joint actuators by Ti5 Robot （钛虎机器人）. Prices in USD, ex-works unless otherwise agreed; final quotation confirmed by email.<br>
+© 2026 Ti5 Robot Distribution. All rights reserved.
+</div>
+</footer>
+
+<a class="fab" id="fabMail" href="#" aria-label="Email us">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>
+</a>
+
+<div class="mask" id="mask"></div>
+
+<aside class="drawer" id="drawer">
+<div class="dhead"><b style="font-size:16px">Inquiry List</b><button class="pill" id="closeInq">Close</button></div>
+<div class="dbody">
+<div id="inqItems"></div>
+<div id="inqForm" style="display:none">
+<div class="field"><label>Your name *</label><input id="fName" placeholder="Full name"></div>
+<div class="field"><label>Email *</label><input id="fEmail" inputmode="email" placeholder="you@company.com"></div>
+<div class="field"><label>Company</label><input id="fCompany" placeholder="Company / lab / team"></div>
+<div class="field"><label>Country *</label><input id="fCountry" placeholder="Destination country"></div>
+<div class="field"><label>Message</label><textarea id="fMsg" rows="3" placeholder="Application, timeline, documentation needed…"></textarea></div>
+</div>
+<div id="inqDone" style="display:none">
+<p style="font-size:14px;line-height:1.7;margin:12px 0">Your inquiry is ready. Copy it and send it to <b id="doneEmail"></b> — or use the email button below, which opens your mail app with everything prefilled.</p>
+<div class="summary" id="inqSummary"></div>
+</div>
+</div>
+<div class="dfoot">
+<div class="total-row"><span>Estimated total</span><b id="inqTotal">$0.00</b></div>
+<button class="primary-btn" id="inqMainBtn">Send Inquiry</button>
+<button class="ghost-btn" id="inqSecondaryBtn" style="display:none">Copy Inquiry</button>
+</div>
+</aside>
+
+<div class="overlay" id="overlay"><div class="detail" id="detail"></div></div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ================= Store settings — edit here ================= */
+const CONFIG = {
+email: "sales@yourcompany.com", // ← replace with your sales email
+whatsapp: "+00 0000 0000", // ← replace with your WhatsApp number
+heroSlides: [12, 7, 0] // product indexes used in the hero slider
+};
+const PRODUCTS = /*__PRODUCTS__*/[];
+/* ==================== App logic (no need to edit) ==================== */
+
+const $ = s => document.querySelector(s);
+const usd = n => "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2});
+let cart = {};
+try { cart = JSON.parse(localStorage.getItem("ti5_cart") || "{}");} catch(e) { cart = {};}
+let cur = null, curSel = [], curQty = 1;
+let slideIdx = 0, slideTimer = null;
+let filter = { cat: "all", q: ""};
+
+function saveCart(){ localStorage.setItem("ti5_cart", JSON.stringify(cart));}
+function toast(msg){
+const t = $("#toast"); t.textContent = msg; t.classList.add("show");
+clearTimeout(t._tm); t._tm = setTimeout(() => t.classList.remove("show"), 1700);
+}
+function sizeOf(p){ const m = p.model.match(/RI(\d+)-/); return m? +m[1]: 0;}
+function catOf(p){ const s = sizeOf(p); return s <= 50? "compact": (s >= 100? "large": "mid");}
+function findVariant(p, sel){
+return p.variants.find(v => v.v[0] === sel[0] && v.v[1] === sel[1] && v.v[2] === sel[2]) || p.variants[0];
+}
+function cartEntries(){
+return Object.values(cart).map(it => {
+const p = PRODUCTS.find(x => x.id === it.pid);
+if (!p) return null;
+return { key: it.key, p, v: findVariant(p, it.sel), sel: it.sel, qty: it.qty};
+}).filter(Boolean);
+}
+function cartCount(){ return cartEntries().reduce((s, x) => s + x.qty, 0);}
+function cartTotal(){ return cartEntries().reduce((s, x) => s + x.qty * x.v.price, 0);}
+
+/* ---------- hero slider ---------- */
+function buildSlides(){
+const wrap = $("#slides"), dots = $("#dots");
+wrap.innerHTML = CONFIG.heroSlides.map((pi, i) => {
+const p = PRODUCTS[pi]; if (!p) return "";
+return `<div class="slide${i === 0? " active": ""}">
+<div class="txt">
+<div class="kicker">Ti5 Robot · CRA-RI PRO Series</div>
+<h1>${p.model} Integrated Joint Actuator</h1>
+<p>Harmonic-drive joint module with selectable gear ratios, single or dual encoders and optional brake — from ${usd(p.priceFrom)}.</p>
+<div class="cta-row">
+<button class="btn btn-primary" data-open="${p.id}">View ${p.model}</button>
+<a class="btn btn-outline" href="#products">Explore Products</a>
+</div>
+</div>
+<div class="pic"><div class="frame"><img src="${p.images[0]}" alt="${p.title}"></div></div>
+</div>`;
+}).join("");
+dots.innerHTML = CONFIG.heroSlides.map((_, i) => `<button data-slide="${i}" class="${i === 0? "on": ""}" aria-label="Slide ${i + 1}"></button>`).join("");
+restartAuto();
+}
+function restartAuto(){ clearInterval(slideTimer); slideTimer = setInterval(() => goSlide((slideIdx + 1) % CONFIG.heroSlides.length), 5200);}
+function goSlide(i){
+slideIdx = i;
+document.querySelectorAll(".slide").forEach((el, j) => el.classList.toggle("active", j === i));
+document.querySelectorAll("#dots button").forEach((el, j) => el.classList.toggle("on", j === i));
+}
+
+/* ---------- categories + grid ---------- */
+const CATS = [
+{ id: "all", nm: "All Models", icon: '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2f6fb2" stroke-width="1.6"><rect x="3.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.6"/></svg>'},
+{ id: "compact", nm: "Compact Series", icon: '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2f6fb2" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.8v3M12 18.2v3M2.8 12h3M18.2 12h3M5.5 5.5l2.1 2.1M16.4 16.4l2.1 2.1M18.5 5.5l-2.1 2.1M7.6 16.4l-2.1 2.1"/></svg>'},
+{ id: "mid", nm: "Mid-Size Series", icon: '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2f6fb2" stroke-width="1.6"><circle cx="12" cy="12" r="6.4"/><circle cx="12" cy="12" r="2.4"/><path d="M12 5.6v-2M12 20.4v-2M5.6 12h-2M20.4 12h-2"/></svg>'},
+{ id: "large", nm: "Large Series", icon: '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2f6fb2" stroke-width="1.6"><circle cx="12" cy="12" r="8.6"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1.2" fill="#2f6fb2"/><path d="M12 3.4v2.4M12 18.2v2.4M3.4 12h2.4M18.2 12h2.4M5.9 5.9l1.7 1.7M16.4 16.4l1.7 1.7M18.1 5.9l-1.7 1.7M7.6 16.4l-1.7 1.7"/></svg>'}
+];
+function renderCats(){
+$("#cats").innerHTML = CATS.map(c => {
+const n = c.id === "all"? PRODUCTS.length: PRODUCTS.filter(p => catOf(p) === c.id).length;
+return `<button class="cat${filter.cat === c.id? " on": ""}" data-cat="${c.id}">
+<span class="tile">${c.icon}</span>
+<div class="nm">${c.nm}</div>
+<div class="ct">${n} model${n === 1? "": "s"}</div>
+</button>`;
+}).join("");
+document.querySelectorAll("[data-cat]").forEach(el => el.onclick = () => {
+filter.cat = el.dataset.cat;
+renderCats(); renderGrid();
+document.getElementById("products").scrollIntoView({ behavior: "smooth"});
+});
+}
+function visibleProducts(){
+return PRODUCTS.filter(p =>
+(filter.cat === "all" || catOf(p) === filter.cat) &&
+(!filter.q || (p.title + " " + p.model).toLowerCase().includes(filter.q))
+);
+}
+function renderGrid(){
+const list = visibleProducts();
+$("#gridLead").textContent = filter.q
+? `Search results for “${filter.q}” — ${list.length} model${list.length === 1? "": "s"} found.`
+: "The complete Ti5 Robot CRA-RI PRO series, with USD pricing for every configuration.";
+$("#grid").innerHTML = list.length? list.map(p => `
+<div class="card">
+<div class="ph" data-open="${p.id}"><img src="${p.images[0]}" alt="${p.title}" loading="lazy"></div>
+<div class="model" data-open="${p.id}">${p.title}</div>
+<div class="from">From ${usd(p.priceFrom)}</div>
+<button class="sel" data-open="${p.id}">Select options</button>
+</div>`).join(""): `<div class="no-res">No models match your search. Try a model number such as “RI70”.</div>`;
+}
+
+/* ---------- detail view ---------- */
+function openProduct(id){
+cur = PRODUCTS.find(x => x.id === id); if (!cur) return;
+curSel = [cur.options[0].values[0], cur.options[1].values[0], cur.options[2].values[0]];
+curQty = 1;
+renderDetail();
+$("#overlay").classList.add("show");
+$("#overlay").scrollTop = 0;
+document.body.style.overflow = "hidden";
+}
+function closeProduct(){ $("#overlay").classList.remove("show"); document.body.style.overflow = "";}
+function renderDetail(){
+const p = cur, v = findVariant(p, curSel);
+const thumbs = p.images.map((src, i) => `<img src="${src}" data-thumb="${i}" class="${i === 0? "on": ""}" alt="">`).join("");
+const video = p.videos && p.videos.length? `<video controls preload="none" src="${p.videos[0]}"></video>`: "";
+const groups = p.options.map((g, gi) => `
+<div class="opt-group">
+<div class="lbl">${g.name}: <span>${curSel[gi]}</span></div>
+<div class="pills">${g.values.map(val => `<button class="pill${val === curSel[gi]? " on": ""}" data-opt="${gi}" data-val="${val.replace(/"/g, "&quot;")}">${val}</button>`).join("")}</div>
+</div>`).join("");
+$("#detail").innerHTML = `
+<button class="back-btn" id="backBtn">← Back to products</button>
+<div class="d-top">
+<div class="gal">
+<img class="main-img" id="mainImg" src="${p.images[0]}" alt="${p.title}">
+<div class="thumbs">${thumbs}</div>
+${video}
+</div>
+<div class="d-info">
+<h1>${p.title}</h1>
+<div class="brand-line">Ti5 Robot （钛虎机器人） · CRA-RI PRO Series · Integrated harmonic joint actuator</div>
+<div class="d-price">${usd(v.price)} <small>USD / unit</small></div>
+<div class="sku-line">SKU: ${v.sku || "—"} · Configuration: ${v.v.join(" / ")}</div>
+${groups}
+<div class="qty-row"><span style="font-size:13px;font-weight:700">Quantity</span>
+<div class="qty"><button id="qDec">−</button><span id="qVal">1</span><button id="qInc">+</button></div>
+</div>
+<div class="d-actions">
+<button class="btn btn-primary" id="addInq">Add to Inquiry List</button>
+<a class="btn" style="border:1.5px solid var(--ink2);color:var(--ink2)" href="#contact" id="discussLink">Discuss Your Project</a>
+</div>
+<div class="note-box">Datasheets, user manuals and 3D CAD files are available on request. Tell us your controller model and we will confirm protocol compatibility before you order.</div>
+</div>
+</div>
+<div class="spec-wrap">
+<h3>Specifications — ${p.model}</h3>
+<div class="spec-scroll">${p.specs || "<p style='padding:14px'>Specification table available on request.</p>"}</div>
+</div>`;
+$("#backBtn").onclick = closeProduct;
+$("#discussLink").onclick = closeProduct;
+document.querySelectorAll("[data-thumb]").forEach(el => el.onclick = () => {
+$("#mainImg").src = p.images[+el.dataset.thumb];
+document.querySelectorAll("[data-thumb]").forEach(x => x.classList.toggle("on", x === el));
+});
+document.querySelectorAll("[data-opt]").forEach(el => el.onclick = () => {
+curSel[+el.dataset.opt] = el.dataset.val;
+renderDetail();
+});
+$("#qDec").onclick = () => { curQty = Math.max(1, curQty - 1); $("#qVal").textContent = curQty;};
+$("#qInc").onclick = () => { curQty++; $("#qVal").textContent = curQty;};
+$("#addInq").onclick = () => {
+const key = p.id + "|" + curSel.join("|");
+if (cart[key]) cart[key].qty += curQty;
+else cart[key] = { key, pid: p.id, sel: [...curSel], qty: curQty};
+saveCart(); renderInq(); toast("Added to inquiry list");
+};
+}
+
+/* ---------- inquiry drawer ---------- */
+let inqStage = "list";
+function renderInq(){
+const list = cartEntries();
+$("#inqCount").textContent = cartCount();
+$("#inqCount").style.display = cartCount()? "block": "none";
+$("#inqTotal").textContent = usd(cartTotal());
+const itemsEl = $("#inqItems"), formEl = $("#inqForm"), doneEl = $("#inqDone");
+const mainBtn = $("#inqMainBtn"), secBtn = $("#inqSecondaryBtn");
+if (inqStage === "list"){
+formEl.style.display = "none"; doneEl.style.display = "none"; itemsEl.style.display = "block";
+itemsEl.innerHTML = list.length? list.map(x => `
+<div class="iitem">
+<div class="t">${x.p.model}</div>
+<div class="v">${x.v.v.join(" / ")}<br>SKU ${x.v.sku || "—"}</div>
+<div class="r"><span>${usd(x.v.price)} × ${x.qty}</span><b>${usd(x.v.price * x.qty)}</b></div>
+<button class="rm-btn" data-rm="${x.key}">Remove</button>
+</div>`).join(""): `<div class="empty">Your inquiry list is empty.<br>Add models from the product pages.</div>`;
+mainBtn.textContent = "Send Inquiry"; mainBtn.disabled =!list.length;
+secBtn.style.display = "none";
+} else if (inqStage === "form"){
+itemsEl.style.display = "none"; doneEl.style.display = "none"; formEl.style.display = "block";
+mainBtn.textContent = "Generate Inquiry"; mainBtn.disabled = false;
+secBtn.style.display = "block"; secBtn.textContent = "← Back to list";
+} else {
+itemsEl.style.display = "none"; formEl.style.display = "none"; doneEl.style.display = "block";
+mainBtn.textContent = "Email This Inquiry"; mainBtn.disabled = false;
+secBtn.style.display = "block"; secBtn.textContent = "Copy Inquiry";
+}
+document.querySelectorAll("[data-rm]").forEach(el => el.onclick = () => {
+delete cart[el.dataset.rm]; saveCart(); renderInq();
+});
+}
+function buildInquiryText(){
+const lines = cartEntries().map(x => `· ${x.p.title}\n ${x.v.v.join(" / ")} — ${usd(x.v.price)} × ${x.qty} = ${usd(x.v.price * x.qty)}`);
+return `
+${lines.join("\n")}
+Estimated total: ${usd(cartTotal())}
+———
+Name: ${$("#fName").value.trim()}
+Email: ${$("#fEmail").value.trim()}
+Company: ${$("#fCompany").value.trim() || "—"}
+Country: ${$("#fCountry").value.trim()}
+Message: ${$("#fMsg").value.trim() || "—"}`;
+}
+function copyText(text, okMsg){
+const done = () => toast(okMsg);
+if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+else fallbackCopy(text, done);
+}
+function fallbackCopy(text, done){
+const ta = document.createElement("textarea");
+ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+document.body.appendChild(ta); ta.select();
+try { document.execCommand("copy"); done();} catch(e) { toast("Copy failed — long-press to copy manually");}
+document.body.removeChild(ta);
+}
+function openDrawer(){ inqStage = "list"; renderInq(); $("#drawer").classList.add("show"); $("#mask").classList.add("show");}
+function closeDrawer(){ $("#drawer").classList.remove("show"); $("#mask").classList.remove("show");}
+
+$("#openInq").onclick = openDrawer;
+$("#closeInq").onclick = closeDrawer;
+$("#mask").onclick = closeDrawer;
+$("#fabMail").onclick = e => { e.preventDefault(); window.location.href = "mailto:" + CONFIG.email;};
+$("#inqMainBtn").onclick = () => {
+if (inqStage === "list"){ inqStage = "form"; renderInq(); return;}
+if (inqStage === "form"){
+if (!$("#fName").value.trim()) return toast("Please enter your name");
+if (!/^\S+@\S+\.\S+$/.test($("#fEmail").value.trim())) return toast("Please enter a valid email");
+if (!$("#fCountry").value.trim()) return toast("Please enter your country");
+$("#inqSummary").textContent = buildInquiryText();
+$("#doneEmail").textContent = CONFIG.email;
+inqStage = "done"; renderInq(); return;
+}
+const subject = encodeURIComponent("Product Inquiry — Ti5 Robot CRA-RI PRO");
+const body = encodeURIComponent($("#inqSummary").textContent);
+window.location.href = `mailto:${CONFIG.email}?subject=${subject}&body=${body}`;
+};
+$("#inqSecondaryBtn").onclick = () => {
+if (inqStage === "form"){ inqStage = "list"; renderInq(); return;}
+if (inqStage === "done") copyText($("#inqSummary").textContent, "Inquiry copied");
+};
+
+/* search */
+$("#searchBtn").onclick = () => {
+const bar = $("#searchbar");
+bar.classList.toggle("open");
+if (bar.classList.contains("open")) $("#searchInput").focus();
+};
+$("#searchInput").addEventListener("input", e => {
+const was = filter.q;
+filter.q = e.target.value.trim().toLowerCase();
+renderGrid();
+if (!was && filter.q) document.getElementById("products").scrollIntoView({ behavior: "smooth"});
+});
+
+/* hero arrows */
+$("#prevSlide").onclick = () => { goSlide((slideIdx - 1 + CONFIG.heroSlides.length) % CONFIG.heroSlides.length); restartAuto();};
+$("#nextSlide").onclick = () => { goSlide((slideIdx + 1) % CONFIG.heroSlides.length); restartAuto();};
+
+document.addEventListener("click", e => {
+const opener = e.target.closest("[data-open]");
+if (opener){ openProduct(opener.dataset.open); return;}
+const dot = e.target.closest("[data-slide]");
+if (dot){ goSlide(+dot.dataset.slide); restartAuto();}
+});
+
+/* init */
+$("#contactEmail").textContent = CONFIG.email;
+$("#contactWa").textContent = CONFIG.whatsapp;
+buildSlides();
+renderCats();
+renderGrid();
+renderInq();
+</script>
+</body>
+</html>
